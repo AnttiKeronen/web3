@@ -10,7 +10,7 @@ document.getElementById("add-data").addEventListener("click", function () {
     const li = document.createElement("li");
     li.textContent = text;
     document.getElementById("my-list").appendChild(li);
-    document.getElementById("custom-text").value = ""; // Clear the textarea after adding
+    document.getElementById("custom-text").value = "";
   } else {
     const li = document.createElement("li");
     li.textContent = "Default text for task 4";
